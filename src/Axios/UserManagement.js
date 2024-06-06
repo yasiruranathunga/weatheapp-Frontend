@@ -1,6 +1,7 @@
 import axios from "axios";
 
-const URL = `https://weatherapp-wowp.onrender.com/api/v1`
+const URL = `https://weatherapp-backend-i7z6.onrender.com//api/v1`
+
 
 const addNewUser = (data) => {
     return axios.post(URL + "/user_um", data)
