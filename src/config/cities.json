@@ -1,0 +1,67 @@
+{
+    "List": [
+      {
+        "CityCode": "1248991",
+        "CityName": "Colombo",
+        "Temp": "33.0",
+        "Status": "Clouds",
+        "ExpireTime":100
+      },
+      {
+        "CityCode": "1850147",
+        "CityName": "Tokyo",
+        "Temp": "8.6",
+        "Status": "Clear",
+        "ExpireTime":30000
+  
+      },
+      {
+        "CityCode": "2644210",
+        "CityName": "Liverpool",
+        "Temp": "16.5",
+        "Status": "Rain",
+        "ExpireTime":20000
+  
+      },
+      {
+        "CityCode": "2988507",
+        "CityName": "Paris",
+        "Temp": "22.4",
+        "Status": "Clear",
+        "ExpireTime":50000
+  
+      },
+      {
+        "CityCode": "2147714",
+        "CityName": "Sydney",
+        "Temp": "27.3",
+        "Status": "Rain",
+        "ExpireTime":40000
+  
+      },
+      {
+        "CityCode": "4930956",
+        "CityName": "Boston",
+        "Temp": "4.2",
+        "Status": "Mist",
+        "ExpireTime":30000
+  
+      },
+      {
+        "CityCode": "1796236",
+        "CityName": "Shanghai",
+        "Temp": "10.1",
+        "Status": "Clouds",
+        "ExpireTime":20000
+  
+      },
+      {
+        "CityCode": "3143244",
+        "CityName": "Oslo",
+        "Temp": "-3.9",
+        "Status": "Clear",
+        "ExpireTime":10000
+  
+      }
+    ]
+  }
