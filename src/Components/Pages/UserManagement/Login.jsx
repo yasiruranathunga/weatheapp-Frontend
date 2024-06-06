@@ -23,12 +23,11 @@ function Login() {
 
         UserManagement.loginUser(inputs).then(res => {
             if (res.data == []) {
-                window.alert(`User account does not exist. Please try again!`)
+                window.alert(`Check Email And Password!`)
             } else {
                 console.log(res.data)
                 sessionStorage.setItem("userLoginStorage", JSON.stringify(res.data));
-                if (res.data.userType == 'admin')
-                    navigation('/dashboard')
+             
                 if (res.data.userType == 'user')
                     navigation('/dashboard')
                
@@ -80,13 +79,7 @@ function Login() {
                                                         <input type="password" class="form-control form-control-user" name='password' onChange={inputHandler}
                                                             placeholder="Enter Password" required />
                                                     </div>
-                                          {/* <div class="form-group">
-                                                        <div class="custom-control custom-checkbox small">
-                                                            <input type="checkbox" class="custom-control-input" id="customCheck" />
-                                                            <label class="custom-control-label" for="customCheck">Remember
-                                                                Me</label>
-                                                        </div>
-                                                    </div> */}
+                                          
                                                     <br />
                                                     <br />
                                                     <input type="submit" class="btn btn-primary btn-user btn-block" value="Login" />
