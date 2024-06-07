@@ -4,7 +4,7 @@
 git clone repository-url
 
 # 2. Install Dependencies:
-cd frontend
+
 npm install
 
 # 3. Set Up Environment Variables:
