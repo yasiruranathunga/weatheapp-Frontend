@@ -30,7 +30,10 @@ const Dashboard = () => {
     if (selectedCity) {
       setCityList((prevList) => [...prevList, selectedCity]);
       setCityInput("");
+      setCitySuggestions([]);
       setError("");
+    } else {
+      setError("Please select a valid city from the suggestions.");
     }
   };
 
@@ -68,7 +71,12 @@ const Dashboard = () => {
             </div>
           ))}
         </div>
-        <button style={styles.searchButton} onClick={handleAddCity}>
+        <button
+          style={styles.searchButton}
+          onClick={() =>
+            handleAddCity(citySuggestions.find((city) => city.CityName.toLowerCase() === cityInput.toLowerCase()))
+          }
+        >
           <p style={styles.searchButtonText}>Add City</p>
         </button>
       </div>
