@@ -14,9 +14,9 @@ function Navigation() {
     return (
         <Routes>
           
-            <Route path='/' element={< Login />} />
-            <Route path='/register' element={<Register />} />
-            <Route path='/dashboard' element={<Dashboard/>} />
+            <Route path='/' element={< Dashboard />} />
+            {/* <Route path='/register' element={<Register />} /> */}
+            {/* <Route path='/dashboard' element={<Dashboard/>} /> */}
             <Route path='/weather/:city' element={<WeatherViewCard/>} />
         </Routes>
     )
