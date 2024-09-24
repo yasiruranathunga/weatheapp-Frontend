@@ -37,16 +37,14 @@
    
     "react-loader-spinner": "^6.1.6",
 
-    "react-query": "^3.39.3",
     "react-router-dom": "^6.3.0",
     "react-scripts": "5.0.1",
     "react-select": "^5.4.0",
-    "react-select-search": "^3.0.10",
-    "react-social-login-buttons": "^3.6.1",
-    "react-spinners": "^0.13.8",
-    "reactjs-social-login": "^2.6.2",
-    "recharts": "^2.1.14",
-    "web-vitals": "^2.1.4"
+    "react-select-search": "^3.0.10"
+  
+  
+   
+  
   },
   "scripts": {
     "start": "react-scripts start",
